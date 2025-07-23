@@ -1,0 +1,13 @@
+Each language excels at different parts:
+
+Python: AI model development, data preprocessing, research
+C++: Real-time processing, hardware drivers, core algorithms
+Java: Application layer, user interfaces, enterprise integration
+
+Common Hybrid Architectures:
+1. Research → Production Pipeline
+Python (Development) → C++ (Production Core) → Java (Application Layer)
+
+Train AI models in Python
+Implement optimized matching in C++
+Build user interface in Java
