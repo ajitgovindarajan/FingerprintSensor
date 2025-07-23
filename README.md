@@ -6,27 +6,10 @@
 
 \*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*
 
-1. Generate 100,000 random integers between 0 - 1,000,000.
-
-Then save them to a text file where each line has 5 numbers per line.
-
-1. Read the numbers back into a plain old array of integers.
-1. Use insertion sort to sort the array
-1. Asks the user to enter a number between 0 - 1,000,000.
-
-The program uses the binary search algorithm to determine
-
-if the specified number is in the array or not.  It also
-
-displays the search step in details
-
-1. Maintain a loop asking if the user wants to play again or not
-
-after a search successfully completes.  Thetest set includes
-
-the following integer numbers.
-
-{-100, 0, 123456, 777777, 459845, 1000000, 1000001}
+1. This file will mimic the finger printsensor capabilities that is on smart phones
+2. The program will consist of user interface that interact with the physical device with enterpirse integration, which contains the full facet of the application layer.
+3. The next part is of the development side which will contain the neural network that will learn the patterns of the finger printand then store theright fingerprint as well as clean any other leanring that has come out of the attempts.
+4. The we have the production core which implements the best of realtime processing, hardware capabilities and the core algorithms need for cyber physical systems use. 
 
 
 \*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*
@@ -35,50 +18,21 @@ the following integer numbers.
 
 \*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*
 
-Name:  main.cpp
+Name:  matching.cpp
 
-Main program.  This is the driver program that calls sub-functions
+This file represents the fingerprint matching capabilites of the program along with the core algorithms for further implementation. Here we also have the hardware driver capability for cyber physical systems.
 
-to read data from an input file, use the data to create two matrices,
+Name:  UI Interface.java
 
-and compute and display their sum and product.
+This file contains the user interface  with an application layer to all bring it together we have the enterprise integration. This operates as a sort of middle man for the sensor capability.
 
-Name:  xxx.h (if you have one)
+Name: Version2.py
 
-Contains the definition for the class xxx.
+This file has the model development, the preprocessing of the data as well as the research done through graph neural networks to learn as well as curb the storage capability of the learning process.
 
-Name: xxx.cpp
+Name: Version2.py
 
-Defines and implements the xxx class for implementing a xxx.
-
-This class provides routines to construct and get the xxx, ...
-
-
-
-`	`[More text comes here ....]
-
-Name: yyy.h
-
-Contains the prototypes for the xxx program support functions.
-
-Name: yyy.cpp
-
-Includes functions to display a greeting, populate two arrays
-
-from a data file, and display the sum and product of two matrices.
-
-
-\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*
-
-* Circumstances of programs
-
-\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*
-
-The program runs successfully.
-
-The program was developed and tested on gnu g++ 6.1.x  It was
-
-compiled, run, and tested on gcc csegrid server.
+This file has the model development, the preprocessing of the data as well as the research done throigh the traditional approach to neural netwroks like PyTorch through one true neural network
 
 
 \*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*
@@ -87,29 +41,22 @@ compiled, run, and tested on gcc csegrid server.
 
 \*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*
 
-1. Uncompress the homework.  The homework file is compressed.
-
-To uncompress it use the following commands
-
-% unzip [1234HW1]
-
+1. 
 Now you should see a directory named homework with the files:
 
-main.cpp
+matching.cpp
 
-xxx.h
+UI interface.java
 
-xxx.cpp
+Version1.py
 
-`	`yyy.h
-
-`	`yyy.cpp
+version2.py
 
 makefile
 
 Readme.txt
 
-`	`[any other supporting documents]
+
 
 1. Build the program.
 
